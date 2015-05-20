@@ -1,0 +1,13 @@
+
+public class trippleDiceTest2 {
+	public static void main(String[] args) throws CloneNotSupportedException 
+	{
+		trippleDice myDice = new trippleDice();
+		
+		trippleDice cloned = (trippleDice) myDice.clone();
+	       
+	        System.out.println(cloned.Throw());
+	        System.out.println(myDice.equals(cloned));
+		
+	}
+}
