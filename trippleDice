@@ -1,0 +1,21 @@
+
+public class trippleDice extends Dice2 implements Cloneable
+{
+	
+	
+	@Override
+	public int Throw ()
+	{
+		int avarage = 0;
+		avarage = (super.Throw() + super.Throw() + super.Throw()) / 3;
+		System.out.println("The Avarage of the three dices are: " + avarage);
+		
+		return avarage;
+	}
+	
+	 @Override
+	    protected Object clone() throws CloneNotSupportedException {
+	        return super.clone();
+	    }
+	
+}
