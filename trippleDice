@@ -19,3 +19,5 @@ public class trippleDice extends Dice2 implements Cloneable
 	    }
 	
 }
+
+//Good
